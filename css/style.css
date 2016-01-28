@@ -1,0 +1,112 @@
+body {
+    background: #333;
+    color: #666;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: auto;
+}
+
+.blog-header {
+    font-size: 50px;
+    color: #FFF;
+}
+
+.blog-header span {
+    color: orange;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    border-radius: 0;
+    border: 0;
+    background: #f4f4f4;
+}
+
+.container-main {
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+
+/* Carousel */
+#myCarousel {
+    margin-bottom: 20px;
+}
+
+#myCarousel .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    padding: 10px;
+    background: rgba(0,0,0,0.6);
+    text-shadow: none;
+}
+
+#myCarousel .carousel-caption h4 {
+    color: #fff;
+}
+
+#myCarousel .carousel-caption p {
+    padding: 0;
+    margin: 0;
+}
+
+#myCarousel .list-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#myCarousel .list-group-item {
+    border-radius: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+#myCarousel .list-group .active {
+    background: #eee;
+    border: 0;
+    color: #666;
+}
+
+#myCarousel .list-group h4 {
+    font-size: 17px;
+    padding: 0 !important;
+    margin: 0 !important;
+    padding-top: 5px;
+}
+
+#myCarousel .img-slide {
+    width: 100px;
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+}
+
+@media(min-width: 992px) {
+    
+    #myCarousel {
+        padding-right: 33.3333%;
+    }
+    
+    #myCarousel .carousel-controls {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
+    
+    .carousel-caption p, #myCarousel .list-group {
+        display: none;
+    }
+}
+
+@media(max-width: 1200px) {
+    
+    .slider-list p {
+        display: none;
+    }
+}
